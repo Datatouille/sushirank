@@ -168,11 +168,12 @@ class PairwiseFinetuner(pl.LightningModule):
             torch.nn.Linear(self.n_cat + self.n_num, self.hparams.num_hidden),
             torch.nn.Dropout(p=self.hparams.drop),
             torch.nn.Linear(self.hparams.num_hidden, 1),
-            torch.nn.Sigmoid()
+            # torch.nn.Sigmoid()
         )
         
         #loss
-        self.loss_fn = torch.nn.BCELoss()
+        # self.loss_fn = torch.nn.BCELoss()
+        self.loss_fn = torch.nn.BCEWithLogitsLoss()
 
 
     def predict(self,inp):
