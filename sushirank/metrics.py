@@ -1,4 +1,5 @@
 import numpy as np
+from tqdm.auto import tqdm
 
 def reciprocal_rank(y_true,y_score,k=10):
     '''
