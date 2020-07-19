@@ -1,6 +1,8 @@
 # `sushirank`
 Educational implementation of pointwise and pairwise learning-to-rank models
 
+[Slides](https://www.canva.com/design/DAECZGAOAyg/nr62T6NHenTi67-8hSVGHw/view?utm_content=DAECZGAOAyg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
 Repository for [Shopee x Data Science BKK Dive into Learning-to-rank ใครไม่แร้งค์ เลินนิ่งทูแร้งค์](https://www.facebook.com/events/282648886314674)
 * `sandbox.ipynb` - notebook for workshop
 * `sushirank/datasets.py` - Pytorch datasets for pointwise and pairwise models
